@@ -78,11 +78,6 @@ fn part2(input: &Vec<Vec<u32>>) {
     // CO2 scrubber rating is inverse, keep only numbers with less common value
     // in that position
 
-    // keep track of the index that matches criteria
-    // let input_size: u32 = input.len() as u32;
-    // let mut oxygen_index: Vec<u32> =  (0..input_size).collect::<Vec<u32>>();
-    // let mut co2_index: Vec<u32> = (0..input_size).collect::<Vec<u32>>();
-
     let mut oxygen_rating = input.clone(); // start with all possible numbers
 
     let mut index = 0;
